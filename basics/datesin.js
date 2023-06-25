@@ -13,17 +13,23 @@ let myDate = new Date() // date ka ek object or instance
 
 //  let myCreatedDate = new Date()
 // console.log(myCreatedDate);  // 2023-06-24T18:38:03.407Z
-
+// console.log(`month ${myDate.getMonth()+1}`); // month 6 
+// console.log(`seconds ${myDate.getSeconds()}`);
+// console.log(`minutes ${myDate.getMinutes()}`);
+// console.log(`Day ${myDate.getDay()}`); // Day 0
+// console.log(`Date ${myDate.getDate()}`);  // Date 25
+// console.log(`month ${myDate.getMonth()+1}`); // month 6
+// console.log(`Year ${myDate.getFullYear()}`); // Year 2023
 
 // one  way of declaring specific date 
-//  let myCreatedDate = new Date(2023, 0, 23) // here first month start with 0 
+//  let myCreatedDate = new Date(2023, 0, 23) // here first month start with   
  // console.log(myCreatedDate);  // 2023-01-23T00:00:00.000Z
  // console.log(myCreatedDate.toDateString());  // Mon Jan 23 2023
 
 
 
  // another way of declaring date with time 
-// let myCreatedDate = new Date(2023, 0, 23, 5, 3)
+// let myCreatedDate = new Date(2023, 0, 23, 5, 3)  
 // console.log(myCreatedDate.toLocaleString()); //    1/23/2023, 5:03:00 AM
 //  let myCreatedDate = new Date("2023-01-14") // here 1st month start with 01 
 // console.log(myCreatedDate.toLocaleString());  // 1/14/2023, 12:00:00 AM

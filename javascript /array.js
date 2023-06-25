@@ -24,7 +24,6 @@ const myArr2 = new Array(1, 2, 3, 4)
 // console.log( newArr);
 
 // thats new 
-// slice, splice
 
 console.log("A ", myArr);
 

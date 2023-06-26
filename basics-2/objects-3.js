@@ -63,11 +63,29 @@ const mySym = Symbol("Key1")
 User.greeting = function() {
    console.log("Hello");
 }
+console.log(User);  
+/*
+{
+  name: 'Sanskar',
+  'full name': 'Sanskar  Bhatt',
+  age: 23,
+  Location: 'Bhopal',
+  email: 'sanskar21@gmail.com',
+  isLoggedIn: false,
+  LastLoginDays: [ 'Monday', 'Saturday' ],
+  greeting: [Function (anonymous)],
+  [Symbol(Key1)]: 'mykey1'
+}
+
+
+
+
+*/ 
 
 console.log(User.greeting); // [Function (anonymous)]
 
 // console.log(User.greeting());  // Hello 
-// Udefined 
+// Undefined 
 
 
 User.greetingtwo = function() {

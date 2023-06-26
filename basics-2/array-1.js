@@ -10,7 +10,7 @@ const myArr = [0, 1, 2, 3, 4, 5]
 const myHeors = ["shaktiman", "naagraj"]
 
 const myArr2 = new Array(1, 2, 3, 4)
-console.log(myArr[3]);
+console.log(myArr[3]); // 3
 
 // Array methods
 
@@ -46,7 +46,13 @@ console.log(myn1); // [1,2]
 console.log("B ", myArr); // B [0,1,2,3,4,5]  //  here original array doesn't gets modified while returning a piece of array in case of slice
 
 
-
+/* splice splice(start)
+splice(start, deleteCount)
+splice(start, deleteCount, item1)
+splice(start, deleteCount, item1, item2, itemN)
+if u don't mention item1 it will simply return an array of deleted elements 
+otherwise if u mention item1 it will insert that element in the position mentioned in start argument 
+*/ 
 const myn2 = myArr.splice(1, 3)
 console.log("C ", myArr);  // C  [ 0, 4, 5 ] // here original array gets modified while returning a piece of array in case of splice 
 

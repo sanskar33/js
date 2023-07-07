@@ -15,7 +15,6 @@ const user = {
 // user.welcomeMessage()
 
 // console.log(this);
-
 // function chai(){
 //     let username = "Sanskar"
 //     console.log(this.username); // undefined ye this works in case of object only not in case of functions
